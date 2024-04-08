@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Adding Machine Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description">
+</head>
+<body>
+    <h1>The Adding Machine Website</h1>
+    <section>
+        <button onclick="dontClick()">DO NOT CLICK THIS BUTTON</button>
+        <button onclick="darkMode()" id="dark-mode">Enable Dark Mode</button>
+        <br>
+        <h2>Number Adding</h2>
+        <label for="number-1">Please enter your first number</label>
+        <br>
+        <input id="number-1" type="number">
+        <br>
+        <label for="number-2">Please enter your second number</label>
+        <br>
+        <input id="number-2" type="number">
+        <button type="button" onclick="addNum()">Calculate</button>
+    </section>
+    <p id="results"></p>
+
+    <h2>Meow</h2>
+    <img src="assets/images/cat.png" alt="a wide-eyed cat" width=300 onclick="meow()">
+    <!--js file linking-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
